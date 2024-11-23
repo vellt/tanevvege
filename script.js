@@ -20,5 +20,6 @@ function update() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+    update();
     setInterval(update, 1000);
 });
